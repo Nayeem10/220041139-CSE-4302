@@ -3,7 +3,7 @@ using namespace std;
 
 class Counter{
 private:
-    int count = 0, incrementSteps = 0;
+    int count, incrementSteps = 0;
 
 public:
     void setIncrementStep(int val){ 
