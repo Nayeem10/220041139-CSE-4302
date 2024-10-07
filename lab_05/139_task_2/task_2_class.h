@@ -1,3 +1,6 @@
+#ifndef CLASS_H
+#define CLASS_H
+
 #include<iostream>
 #include<string>
 using namespace std;
@@ -23,3 +26,5 @@ public:
     void getInfo();
     Employee compare(Employee);
 };
+
+#endif

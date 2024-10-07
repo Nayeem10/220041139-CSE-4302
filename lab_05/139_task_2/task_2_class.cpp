@@ -1,7 +1,5 @@
-#ifndef CLASS_H
-#define CLASS_H
 
-#include "class.h"
+#include "task_2_class.h"
 
 int convert(DOB d){
     return d.year * 365 + d.month * 30 + d.day;
@@ -59,5 +57,3 @@ Employee Employee::compare(Employee other){
     if(convert(this->dateOfBirth) > convert(other.getDateofBirth())) return other;
     return *this;
 }
-
-#endif

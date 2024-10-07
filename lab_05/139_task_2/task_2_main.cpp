@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-#include "class.h"
+#include "task_2_class.h"
 
 using namespace std;
 

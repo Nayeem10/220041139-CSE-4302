@@ -1,6 +1,6 @@
 #include <iostream>
 #include <random>
-#include "class.h"
+#include "task_1_class.h"
 
 using namespace std;
 
