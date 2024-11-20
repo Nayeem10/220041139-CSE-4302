@@ -18,3 +18,4 @@ void Account::setName(string accountName){
 void Account::setAccountNo(int pre, int next){
     accountNo = to_string(pre) + "-" + to_string(next);
 }
+
